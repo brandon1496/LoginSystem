@@ -31,9 +31,13 @@ body {
     text-align: center;
     width: 30%;
     margin:0 auto;
-    
-   
 }
+.Login {
+    text-align: center;
+    width: 30%;
+    margin:0 auto;
+}
+
 form {
     display: grid;
    
@@ -54,4 +58,17 @@ button {
 input[type=submit]{
     grid-column: 2 / 3;
     
+}
+span {
+    font-size: 14px;
+    color: red;
+}
+#Submit{
+    grid-column: 1 / 3;
+}
+.Button {
+    grid-column: 1 / 2;
+    font-size: 15px;
+    
+    padding: 0px;
 }

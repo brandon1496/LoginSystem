@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>PHP</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
-    
-</head>
-<body>
+<?php include "Templates/header.php"; ?>
 <?php include "Templates/nav.php"; ?>
+<?php session_start() ?>
 <div class="Home">
 <h1>Home</h1>
+<?php if (isset($_SESSION["Username"])){
+    $name = $_SESSION["Username"];
+    echo "<p> Hello '$name'</p>";
+}
+?>
 </div>
 </body>
 </html>
