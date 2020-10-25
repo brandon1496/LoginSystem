@@ -25,9 +25,28 @@ a {
 }
 body {
     margin: 0;
-    background-color: rgb(160, 159, 159);
+    background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
 }
-.Signup {
+.container > .row.justify-content-center > .col-md-4 {
+    background-color: azure;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.container > .row.justify-content-center > .col-md-8 {
+    background-color: azure;
+    margin-top: 30px;
+    padding: 20px;
+}
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+
+}
+/* .Signup {
     text-align: center;
     width: 30%;
     margin:0 auto;
@@ -71,4 +90,4 @@ span {
     font-size: 15px;
     
     padding: 0px;
-}
+} */
